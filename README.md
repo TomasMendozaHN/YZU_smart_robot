@@ -11,6 +11,9 @@ https://github.com/NVIDIA-AI-IOT/torch2trt
 
 -------------------------- File Description --------------------------------------
 
+If you want to inmediately start using the YZU robot, you must have a pretrained model in Pytorch,
+and your robot set up. Then, copy this repository into your Nano and run the "RLEnvironment" file
+which mimics how MLAgents works (by implementing the observe, sample_action and step methods).
 
 To read a TRAINED model from MlAgents (in pytorch format) use file #1
 
