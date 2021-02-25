@@ -5,9 +5,11 @@ This repository contains all the files necessary to deploy an RL agent into a Je
 Please note that:
 
 1 In order to read the RPLidar sensor, the repository from this link was used: 
+
 -- https://github.com/Roboticia/RPLidar
 
 2. In order to convert Pytorch models to TensorRT it is necessary to make use of:
+
 -- https://github.com/NVIDIA-AI-IOT/torch2trt
 
 
@@ -37,6 +39,7 @@ An explanation of How to modify the MLAgents library to output pytorch model is 
 Please note that you must have mlagents version 10 or above to be able to do this. 
 
 ------------------------------------------ LIBRARIES -----------------------------------------
+
 The libraries used to create this project were:
 
 + CUDA==10.2.89
