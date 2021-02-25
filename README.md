@@ -33,12 +33,12 @@ the files separately:
 
 4. To calculate the phase in which the robot is (phase 1, 2 or 3) use file #4
 
-------------------- HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? ------------------- 
+###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
 An explanation of How to modify the MLAgents library to output pytorch model is included as HTML.
 Please note that you must have mlagents version 10 or above to be able to do this. 
 
------------------------------------------- LIBRARIES -----------------------------------------
+###  LIBRARIES 
 
 The libraries used to create this project were:
 
@@ -53,7 +53,7 @@ The libraries used to create this project were:
 + torch2trt==0.1.0
 + trt-pose==0.0.01
 
-----------------------------------THIS IS A WORK IN PROGRESS----------------------------------
+### THIS IS A WORK IN PROGRESS
 
 The files made by me are merely wrappers for other libraries. Don't forget to give the authors
 credit for the hard work!
