@@ -12,21 +12,24 @@ Please note that:
 
 -- https://github.com/NVIDIA-AI-IOT/torch2trt
 
-3. You need to put the following file inside this repository (after you've downloaded it):
+### Instructions
 
--- 
+1. Download this repository.
 
-4. You need to have a pretrained mlagents model inside this repository. To know how to get
+2. You need to put the following file inside this repository:
+
+-- https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
+
+3. You need to have a pretrained mlagents model inside this repository. To know how to get
 mlagents to output a trained model to pytorch rather than ONNX, check the html file inside this
 repository.
 
-### File Description 
+4. Modify RL_Environment notebook, specifically In [6]::
+-- model = torch.load(YOUR_ENVIRONMENT_NAME)
 
-If you want to inmediately start using the YZU robot, you must have a pretrained model in Pytorch,
-and your robot set up. Then, copy this repository into your Nano and run the "RLEnvironment" file
-which mimics how MLAgents works (by implementing the observe, sample_action and step methods). 
-Notice that you must change the "model = torch.load()" line in RLEnvironment.ipynb to load your
-trained model.
+5. Run RL_Environment notebook which shows you how to use this repository as an RL wrapper.
+
+### File Description 
 
 If you are trying to understand how everything works, you can run each file separately as they
 can all run independently. Just make sure to uncomment everything if you are planning on running
@@ -39,6 +42,8 @@ the files separately:
 3. To read RPLidar sensor, use file #3
 
 4. To calculate the phase in which the robot is (phase 1, 2 or 3) use file #4
+
+5. To obtain the keypoints of a human body, run Keypoints_RCNN.ipynb
 
 ###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
