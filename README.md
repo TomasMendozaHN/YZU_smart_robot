@@ -12,6 +12,13 @@ Please note that:
 
 -- https://github.com/NVIDIA-AI-IOT/torch2trt
 
+3. You need to put the following file inside this repository (after you've downloaded it):
+
+-- 
+
+4. You need to have a pretrained mlagents model inside this repository. To know how to get
+mlagents to output a trained model to pytorch rather than ONNX, check the html file inside this
+repository.
 
 ### File Description 
 
