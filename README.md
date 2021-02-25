@@ -24,8 +24,9 @@ Please note that:
 mlagents to output a trained model to pytorch rather than ONNX, check the html file inside this
 repository.
 
-4. Modify RL_Environment notebook, specifically In [6]::
--- model = torch.load(YOUR_ENVIRONMENT_NAME)
+4. Modify RL_Environment notebook, specifically In [6]:
+
+model = torch.load(YOUR_ENVIRONMENT_NAME)
 
 5. Run RL_Environment notebook which shows you how to use this repository as an RL wrapper.
 
