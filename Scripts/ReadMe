@@ -1,0 +1,12 @@
+This folder contains helper scripts that are called by the Environment files.
+
+These scripts are:
+
+1. Calculate_Angles --> Contains function to calculate angle based on a frame.
+
+2. Env_Class --> Contains the Class that Imitates GYM to control the robot. 
+                 The main functions are: observe, step, sample_action. 
+                 
+3. Estimate_stages --> Contains function to estimate Stage 1,2 or 3 from a frame.
+
+4. Read_RP_Lidar --> Contains function to read Lidar distance info on the given angles.
