@@ -6,26 +6,25 @@ This repository contains all the files necessary to deploy an RL agent into a Je
 
 1. Download this repository.
 
-2. You need to put the following file inside the folder of the script you are using:
+2. You need to put the following file inside the "Files" folder:
 
 -- https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
 
-3. You need to have a pretrained mlagents model inside the folder of the script you are using. 
-To know how to get mlagents to output a trained model to pytorch rather than ONNX, check the 
-html file inside this repository.
+3. You need to have a pretrained mlagents model inside the "Files" folder. 
+*To know how to get mlagents to output a trained model to pytorch rather than ONNX, check the 
+html file inside this repository.*
 
-4. Run the script you desire (to control the robot, consider using the script inside
-either folder 2 or 3 *depending if you want to visualize the camera or not*)
+4. Run the file you want.
 
 ### File Description 
 
-There are 2 Main Folders:
+There are 4 Main Files:
 
-1. Debugging_scripts --> Contains scripts that can visualize camera while printing angle/stage.
+1. Debugging 2 & 4 --> Contains scripts that can visualize camera while printing angle/stage (respectively).
 
-2. Visualize_Environment --> Contains the Environment that can visualize the camera + control the robot.
+2. Environment_With_Visualization --> Contains the Environment that can visualize the camera + control the robot.
 
-3. No_Camera_Environment --> Contains the Environment that can control the robot (without visualization)
+3. Environment_No_Visualization --> Contains the Environment that can control the robot (without visualization)
 
 ###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
