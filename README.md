@@ -8,7 +8,7 @@ This repository contains all the files necessary to deploy an RL agent into a Je
 
 2. You need to put the following file inside the "Files" folder:
 
--- https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
+    https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
 
 3. You need to have a pretrained mlagents model inside the "Files" folder. 
 *To know how to get mlagents to output a trained model to pytorch rather than ONNX, check the 
