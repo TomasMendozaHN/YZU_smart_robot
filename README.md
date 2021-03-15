@@ -11,8 +11,11 @@ This repository contains all the files necessary to deploy an RL agent into a Je
     https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
 
 3. You need to have a pretrained mlagents model inside the "Files" folder. 
-*To know how to get mlagents to output a trained model to pytorch rather than ONNX, check the 
-html file inside this repository.*
+
+    By Default, there's a model pretrained by our Master Student George.
+
+    *To know how to get mlagents to output a trained model to pytorch rather than ONNX, 
+    check the html file inside this repository.*
 
 4. Run the file you want.
 
