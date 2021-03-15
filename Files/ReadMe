@@ -2,8 +2,8 @@
 
 Inside this folder (once downloaded in your Jetbot) you must have:
 
-1. A Pre-Trained Unity Model (in .pth format)
+1. A Pre-Trained Unity Model (in .pth format) -- Provided George's
 
-2. A Pre-Trained KeyPoints_RCNN model (in TensorRT Format)
+2. A Pre-Trained KeyPoints_RCNN model (in TensorRT Format) -- Download from GDrive link
 
-3. The model with the KeyPoints information (in JSON format).
+3. The model with the KeyPoints information (in JSON format). -- Provided
