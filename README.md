@@ -32,19 +32,13 @@ model = torch.load(YOUR_ENVIRONMENT_NAME)
 
 ### File Description 
 
-If you are trying to understand how everything works, you can run each file separately as they
-can all run independently. Just make sure to uncomment everything if you are planning on running
-the files separately:
+There are 2 Main Folders:
 
-1. To read a TRAINED model from MlAgents (in pytorch format) use file #1
+1. Debugging_scripts --> Contains scripts that can visualize camera while printing angle/stage.
 
-2. To Calculate angle between the center of the camera frame and the person, use file #2
+2. Visualize_Environment --> Contains the Environment that can visualize the camera + control the robot.
 
-3. To read RPLidar sensor, use file #3
-
-4. To calculate the phase in which the robot is (phase 1, 2 or 3) use file #4
-
-5. To obtain the keypoints of a human body, run Keypoints_RCNN.ipynb
+3. No_Camera_Environment --> Contains the Environment that can control the robot (without visualization)
 
 ###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
