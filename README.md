@@ -21,15 +21,17 @@ This repository contains all the files necessary to deploy an RL agent into a Je
 
 ### File Description 
 
-There are 4 Main Files:
+There are 5 Main Files:
 
 1. Debugging_Angle --> To visualize the camera stream while printing angle.
 
-2. Debugging_Stage --> To visualize the camera stream while printing stage.
+2. Debugging_Lidar --> To visualize lidar readings in real time.
 
-3. Environment_With_Visualization --> Visualize the camera stream + RL Env to control robot.
+3. Debugging_Stage --> To visualize the camera stream while printing stage.
 
-4. Environment_No_Visualization --> RL Env to control robot (NO camera visualization)
+4. Environment_With_Visualization --> Visualize the camera stream + RL Env to control robot.
+
+5. Environment_No_Visualization --> RL Env to control robot (NO camera visualization)
 
 ###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
