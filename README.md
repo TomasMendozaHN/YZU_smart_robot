@@ -32,19 +32,24 @@ There are 4 Main Files:
 ###  HOW TO OUTPUT MLAGENTS TRAINED MODEL AS PYTORCH MODEL? 
 
 An explanation of How to modify the MLAgents library to output pytorch model is included as HTML.
-Please note that you must have mlagents version 10 or above to be able to do this. 
 
-### Please note that:
+*You must have mlagents version 10 or above to be able to do this.* 
 
-1 In order to read the RPLidar sensor, the repository from this link was used: 
+### Credits:
+
+1 RPLidar communication was achieved using this library: 
 
 -- https://github.com/Roboticia/RPLidar
 
-2. In order to convert Pytorch models to TensorRT it is necessary to make use of:
+2. Pytorch to TensorRT was achieved using this library:
 
 -- https://github.com/NVIDIA-AI-IOT/torch2trt
 
-###  LIBRARIES USED
+3. In general, none of this would be possible without Victor Ham's help:
+
+-- https://github.com/victorhamc
+
+###  LIBRARIES USED IN THIS REPOSITORY
 
 The libraries used to create this project were:
 
@@ -61,5 +66,5 @@ The libraries used to create this project were:
 
 ### THIS IS A WORK IN PROGRESS
 
-The files made by me are merely wrappers for other libraries. Don't forget to give the authors
+These files are wrappers for other libraries. Don't forget to give the authors
 credit for the hard work!
