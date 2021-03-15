@@ -2,33 +2,20 @@
 
 This repository contains all the files necessary to deploy an RL agent into a Jetson Nano.
 
-Please note that:
-
-1 In order to read the RPLidar sensor, the repository from this link was used: 
-
--- https://github.com/Roboticia/RPLidar
-
-2. In order to convert Pytorch models to TensorRT it is necessary to make use of:
-
--- https://github.com/NVIDIA-AI-IOT/torch2trt
-
 ### Instructions
 
 1. Download this repository.
 
-2. You need to put the following file inside this repository:
+2. You need to put the following file inside the folder of the script you are using:
 
 -- https://drive.google.com/file/d/1s02V8NMhNPtBrqPgOX9J0mI5c-nGsmkz/view?usp=sharing
 
-3. You need to have a pretrained mlagents model inside this repository. To know how to get
-mlagents to output a trained model to pytorch rather than ONNX, check the html file inside this
-repository.
+3. You need to have a pretrained mlagents model inside the folder of the script you are using. 
+To know how to get mlagents to output a trained model to pytorch rather than ONNX, check the 
+html file inside this repository.
 
-4. Modify RL_Environment notebook, specifically In [6]:
-
-model = torch.load(YOUR_ENVIRONMENT_NAME)
-
-5. Run RL_Environment notebook which shows you how to use this repository as an RL wrapper.
+4. Run the script you desire (to control the robot, consider using the script inside
+either folder 2 or 3 *depending if you want to visualize the camera or not*)
 
 ### File Description 
 
@@ -45,7 +32,17 @@ There are 2 Main Folders:
 An explanation of How to modify the MLAgents library to output pytorch model is included as HTML.
 Please note that you must have mlagents version 10 or above to be able to do this. 
 
-###  LIBRARIES 
+### Please note that:
+
+1 In order to read the RPLidar sensor, the repository from this link was used: 
+
+-- https://github.com/Roboticia/RPLidar
+
+2. In order to convert Pytorch models to TensorRT it is necessary to make use of:
+
+-- https://github.com/NVIDIA-AI-IOT/torch2trt
+
+###  LIBRARIES USED
 
 The libraries used to create this project were:
 
