@@ -1,6 +1,4 @@
-# Welcome to the YZUSmartbot RL environment! 
-
-This repository contains all the files necessary to deploy an RL agent into a Jetson Nano.
+![Alt text](/yzu_smartbot_logo.png?raw=true "Optional Title")
 
 ### Instructions
 
