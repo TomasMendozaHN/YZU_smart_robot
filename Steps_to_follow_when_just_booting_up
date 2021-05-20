@@ -1,6 +1,7 @@
 Steps taken:
 
 -- When turning on, to enable the GUI: sudo systemctl set-default graphical.target
+-- Then, write: sudo reboot 
 
 When you reach the Desktop and have connected to internet:
 
