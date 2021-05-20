@@ -187,4 +187,13 @@ change:
 to:
 	ExecStart LD_PRELOAD=/bin/sh -c "export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1; jupyter lab --ip=0.0.0.0 --no-browser" 
 
+############### IMPORTANT ##################
 
+Once you have finished with everything, you must restart your jetson Nano. After doing this, you will be presented again with the black screen.
+
+Type: sudo systemctl set-default graphical.target
+then type: sudo restart
+
+You have finished!!!!
+
+When opening the remote session for the first time, you will be asked for the password --> THERE IS NO PASSWORD! just click OK.
