@@ -182,10 +182,10 @@ sudo python3 setup.py install
 ----> This file is located in: ~/etc/systemd/system/jetbot_jupyter.service  --> edit it with text editor
 
 change:
-	ExecStart LD_PRELOAD=/bin/sh -c "jupyter lab --ip=0.0.0.0 --no-browser"
+	ExecStart=/bin/sh -c "jupyter lab --ip=0.0.0.0 --no-browser"
 
 to:
-	ExecStart LD_PRELOAD=/bin/sh -c "export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1; jupyter lab --ip=0.0.0.0 --no-browser" 
+	ExecStart=/bin/sh -c "export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1; jupyter lab --ip=0.0.0.0 --no-browser" 
 
 ############### IMPORTANT ##################
 
