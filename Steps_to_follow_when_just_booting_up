@@ -79,21 +79,13 @@ sudo python3 -m pip install git+https://github.com/ipython/traitlets@dead2b8cdde
 ###############10: Install Jupyter Lab & Configure It! ###############
 
 sudo apt install -y curl
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs libffi-dev 
+wget https://nodejs.org/dist/v12.13.0/node-v12.13.0-linux-arm64.tar.xz
+tar -xJf node-v12.13.0-linux-arm64.tar.xz
+cd node-v12.13.0-linux-arm64
+sudo cp -R * /usr/local/
+node -v   # Here you should see a print that says "node js version 12.X"
 sudo -H pip3 install jupyter jupyterlab
 sudo -H jupyter labextension install @jupyter-widgets/jupyterlab-manager
-
------------------# if you receive errors saying you need to install a newer nodejs: #-------------------------
-		   
-		   wget https://nodejs.org/dist/v12.13.0/node-v12.13.0-linux-arm64.tar.xz
-		   tar -xJf node-v12.13.0-linux-arm64.tar.xz
-		   cd node-v12.13.0-linux-arm64
-		   sudo cp -R * /usr/local/
-		   node -v   # Here you should see a print that says "node js version 12.X"
-		   
------------------------------------# and then rerun the previous 2 lines #------------------------------------
-
 jupyter lab --generate-config
 python3 -c "from notebook.auth.security import set_password; set_password('$password', '$HOME/.jupyter/jupyter_notebook_config.json')"
 
@@ -111,12 +103,7 @@ sudo jupyter labextension install js
 sudo jupyter lab build
 
 # Install bokeh
-sudo pip3 install bokeh
-sudo jupyter labextension install @bokeh/jupyter_bokeh
-
-****************************** If you have problems with the line above:
 sudo apt-get install jupyter_bokeh
-
 
 ###############11. install jetbot python module ###############
 cd
